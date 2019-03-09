@@ -1,0 +1,47 @@
+.weatherDataContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;               
+    background:  rgba(240, 239, 239, 0.753);     
+}
+
+.weatheTemperatureContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+}
+.temperatureContainer{
+    display: flex;
+    align-items: baseline;
+}
+.temperature{
+    font-size: 28pt;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #333;
+}
+
+.temperatureType{
+    font-weight: bold;
+    font-size: 20pt;
+    color: #667;
+}
+
+.wicon{
+    color: rgb(224, 64, 15);
+}
+.weatherExtraInfoContainer{
+    padding: 15px;
+    font-size: 14pt;
+    text-align: left;
+    line-height: 20pt;
+    color: rgb(82, 81, 81);
+}
+
+.extraInfo{
+    display: block;
+}

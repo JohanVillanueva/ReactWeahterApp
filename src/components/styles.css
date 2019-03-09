@@ -1,0 +1,23 @@
+
+.locationListContainer{
+    max-height: 85vh;
+    overflow:auto;
+}
+@media (max-width:64em){
+    .locationListContainer{
+        max-height: 40vh;
+        overflow:auto;
+        margin-bottom: 20px;
+    }
+}
+
+.forecastContainer{
+    padding:10px;
+}
+
+.forecastTitle{
+    color: white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+}

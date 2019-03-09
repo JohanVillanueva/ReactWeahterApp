@@ -1,0 +1,27 @@
+.weatherLocationContainer{
+    font-family: 'Roboto';
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+    width: calc(100%-20px);
+    min-width: 300px;
+    border: 1px solid rgb(156, 156, 156);
+    padding: 20px;
+    -webkit-box-shadow: 3px 6px 46px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 46px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 46px 0px rgba(0,0,0,0.75);
+}
+.weatherLocationContainer:hover{
+    cursor: pointer;
+}
+.weatherLocationContainer h1{
+    text-align: left;
+    color: rgb(199, 198, 198);
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+}
+.locationCont{
+    overflow: hidden;
+}
+.loader{
+    margin: 1rem;
+}
